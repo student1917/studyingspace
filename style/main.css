@@ -1,0 +1,84 @@
+
+body { 
+    font-family: "Vollkorn",serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-image: url('../images/hhh.jpg');
+    background-size: cover;
+    background-color: #bdcbcc;
+}
+header {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+main{
+    padding: 20px;
+}
+ariticle {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.inline-list {
+     width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inline-list li {
+    display: inline;
+    margin-right:1em;
+    margin-top: 0;
+}
+/*.inline-list: last child {
+    margin-right: 0;
+}*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.image-frame {
+    position: relative;
+    width:80%;
+    height: 50vh;
+    border: 10px solid #ccc;
+    overflow: hidden;
+}
+.image-frame img {
+    width: 100%;
+    height: auto;
+}
+.content-frame {
+    position: relative;
+    width:60%;
+    height: 50vh;
+/*    border: 10px solid #ccc;*/
+    overflow: hidden;
+    background-color: white;
+}
+h1,h2 { 
+    text-align: center;
+    color: #bdcbcc;
+    margin-bottom: 0.5em;
+}
+label {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 0.5em; }
